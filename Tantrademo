@@ -1,0 +1,100 @@
+export default function ProyectoTantraSite() {
+  const talleres = [
+    {
+      titulo: "Cuerpo, respiración y presencia",
+      descripcion:
+        "Un taller para afinar la escucha corporal, regular el sistema nervioso y abrir un espacio de sensibilidad, ritmo y contacto consciente.",
+      modalidad: "Presencial / Online",
+    },
+    {
+      titulo: "Intimidad consciente",
+      descripcion:
+        "Prácticas relacionales para explorar límites, consentimiento, comunicación, deseo y presencia vincular sin apuro ni coreografía de brochure místico.",
+      modalidad: "Grupal",
+    },
+    {
+      titulo: "Energía, voz y movimiento",
+      descripcion:
+        "Un laboratorio expresivo con respiración, sonido, atención y movimiento para desbloquear creatividad, vitalidad y conexión.",
+      modalidad: "Experiencial",
+    },
+  ];
+
+  const acompanamientos = [
+    {
+      titulo: "Acompañamiento individual",
+      texto:
+        "Sesiones 1:1 para procesos personales. Un espacio para trabajar presencia, cuerpo, deseo, límites, regulación emocional e integración de experiencias.",
+    },
+    {
+      titulo: "Mentoría de práctica",
+      texto:
+        "Para quienes ya vienen explorando meditación, somática, tantra o trabajo corporal y buscan profundidad, marco y continuidad.",
+    },
+    {
+      titulo: "Procesos a medida",
+      texto:
+        "Diseño de recorridos personalizados para artistas, facilitadores, parejas o personas en transición vital. Sí, también para almas caóticamente hermosas.",
+    },
+  ];
+
+  const portfolio = [
+    "Ciclos de talleres introductorios y profundización",
+    "Encuentros de práctica somática y meditación relacional",
+    "Acompañamientos individuales y procesos de integración",
+    "Diseño de experiencias para espacios artísticos y culturales",
+    "Laboratorios de cuerpo, voz, movimiento y sensibilidad",
+    "Charlas y propuestas pedagógicas sobre consentimiento y presencia",
+  ];
+
+  const galeria = [
+    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+  ];
+
+  return (
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_#f7efe7,_#efe1d1_38%,_#d9c0ac_100%)] text-stone-800 selection:bg-stone-800 selection:text-stone-100">
+      <header className="sticky top-0 z-50 border-b border-white/30 bg-white/55 backdrop-blur-xl">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
+          <div>
+            <p className="font-serif text-xl tracking-wide">Proyecto Tantra</p>
+            <p className="text-xs uppercase tracking-[0.28em] text-stone-500">cuerpo · presencia · vínculo</p>
+          </div>
+          <div className="hidden gap-6 text-sm md:flex">
+            <a href="#proyecto" className="transition hover:opacity-60">Proyecto</a>
+            <a href="#talleres" className="transition hover:opacity-60">Talleres</a>
+            <a href="#individual" className="transition hover:opacity-60">Individual</a>
+            <a href="#portfolio" className="transition hover:opacity-60">Portfolio</a>
+            <a href="#galeria" className="transition hover:opacity-60">Galería</a>
+            <a href="#contacto" className="transition hover:opacity-60">Contacto</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section className="relative overflow-hidden">
+          <div className="mx-auto grid min-h-[88vh] max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:px-10 lg:py-20">
+            <div className="relative z-10">
+              <span className="mb-5 inline-flex rounded-full border border-stone-400/40 bg-white/50 px-4 py-2 text-xs uppercase tracking-[0.28em] text-stone-600 backdrop-blur-sm">
+                Talleres · acompañamientos · experiencias
+              </span>
+              <h1 className="max-w-2xl font-serif text-5xl leading-tight md:text-7xl">
+                Un espacio para habitar el cuerpo con presencia, sensibilidad y profundidad.
+              </h1>
+              <p className="mt-6 max-w-xl text-base leading-7 text-stone-700 md:text-lg">
+                Propuestas de tantra, trabajo somático y exploración vincular orientadas a la escucha, el consentimiento, la energía vital y la integración de la experiencia.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="#talleres"
+                  className="rounded-2xl bg-stone-900 px-6 py-3 text-sm font-medium text-stone-100 shadow-lg shadow-stone-900/20 transition hover:-translate-y-0.5"
+                >
+                  Ver talleres
+                </a>
+                <a
+                  href="#contacto"
+                  className="rounded-2xl border border-stone
